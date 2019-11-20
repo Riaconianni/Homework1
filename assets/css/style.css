@@ -2,6 +2,15 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+  }
+
 h1 {
     display: inline-block;
     background-color: #4aaaa5;
@@ -23,7 +32,7 @@ main {
     background-color: #ffffff;
     width: 960px;
     margin: 0 auto;
-    padding: 100px;
+    padding: 60px;
 }
 
 
@@ -62,14 +71,15 @@ header {
     padding: 75px;
 }
 
-footer {
+.footer {
+    flex: 1 0 auto;
     background-color: #666666;
     border-top: solid #4aaaa5 8px;
     padding: 25px;
-    margin: 0 auto;
 }
 
-h3 {
+.content {
+    flex-shrink: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
     font-size: 8px;
