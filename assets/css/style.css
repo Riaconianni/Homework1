@@ -6,7 +6,7 @@ h1 {
     display: inline-block;
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    color: white;
+    color: #ffffff;
   }
 
 a {
@@ -23,7 +23,7 @@ main {
     background-color: #ffffff;
     width: 960px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 100px;
 }
 
 
@@ -59,6 +59,19 @@ header {
 }
 
 .message {
-    height: 100px;
-    width: 400px;
+    padding: 75px;
+}
+
+footer {
+    background-color: #666666;
+    border-top: solid #4aaaa5 8px;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-size: 8px;
+    text-align: center;
 }
