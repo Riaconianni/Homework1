@@ -81,14 +81,17 @@ header {
     padding: 75px;
 }
 
-.footer {
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+.footer, .push {
+    height: 50px;
     flex: 1 0 auto;
     background-color: #666666;
     border-top: solid #4aaaa5 8px;
     padding: 20px;
-}
-
-.content {
     flex-shrink: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
