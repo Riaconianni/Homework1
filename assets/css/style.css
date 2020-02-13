@@ -240,5 +240,12 @@ input {
 }
 
 form {
-    padding-top: 20px;
+    padding: .5em;
+    color: #4aaaa5;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input {
+    margin-top: 10px;
 }
